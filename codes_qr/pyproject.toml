@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "codes-qr"
+version = "0.1.0"
+description = ""
+authors = ["Maria-hub746 <113303447+Maria-hub746@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "codes_qr"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+segno = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
